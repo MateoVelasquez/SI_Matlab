@@ -1,13 +1,13 @@
-%%      PARAMETROS
+%%  ------------------------  PARAMETROS ------------------------------------------------------------
 global Num_ecu Num_gen Mtx_coeff Mtx_result Rango
 
-tam_pobl =500;  %tamaño de la población
+tam_pobl =500;  %tamaÃ±o de la poblaciÃ³n
 elet = 2;       %elitismo
 P_deter = 2;    %torneo deterministico
 %numero_ind_torneo =10;
 Al_cruc = 3;    %Algoritmo cruce
 Ts_Pc= 0.9;     %Tasa de cruce
-Ts_Pm = 0.8;  %Tasa de mutación
+Ts_Pm = 0.8;  %Tasa de mutaciÃ³n
 
 Rango = [0 10];
 Errper = 0.1; %tolerancia
@@ -15,9 +15,12 @@ NmEpc = 1000; %Numero de epocas
 
 %Matrices
 
-Mtx_coeff = [3 8 2; 1 -2 4; -5 3 11];%[1 -2 -2 1; 1 1 1 -1; 1 -1 -1 1; 6 -3 3 2];%[2 1;4 3];% [8 -2 1; 6 2 1; 3 -7 1];
-Mtx_result = [25;12;4];%[4;5;6;32];%[6;14]; %[-68;-40;-58];
+Mtx_coeff = [3 8 2; 1 -2 4; -5 3 11];
+Mtx_result = [25;12;4];
 
+
+
+% ------------------ COMIENZO DEL SCRIPT ----------------------------------
 
 Num_ecu=size(Mtx_coeff,1);    %numero de ecuaciones
 Num_gen=size(Mtx_coeff,2);   %numero de genes
@@ -47,7 +50,7 @@ while  bst_ftnss>=Errper && epc_act<NmEpc  %while para criterio de parada
     bst_ftnss= round(Mtx_ind_ftnss(1,size(Mtx_ind_ftnss,2)),2);   % mejor fitness de la nueva generacion
     
     epc_act=epc_act+1;  %aumenta las epocas
-    disp(['Epoca: ' num2str(epc_act) ', Precisión: ' num2str(bst_ftnss)]); %muestra epoca y precision
+    disp(['Epoca: ' num2str(epc_act) ', PrecisiÃ³n: ' num2str(bst_ftnss)]); %muestra epoca y precision
 end
 %% muestra de resultados
 Mejor_Resultado= Mtx_ind_ftnss(1,1:Num_gen);     
