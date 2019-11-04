@@ -15,6 +15,14 @@ Solo es necesario descargar los códigos y agregar el path de la carpeta en Matl
 
 ## Ejecución de pruebas
 
+Dentro del repositorio se encuentran algunos algoritmos basicos que serán explicados a continuación:
+
+### Algoritmo Genetico Simple
+
+Este [Algoritmo Genetico](MateoVelasquez/SI_Matlab/Algoritmo Genetico Simple/AlgoritmoGenetico.m) está desarrollado para resolver un sistema de n-ecuaciones con n-incognitas
+
+
+
 
 
 
