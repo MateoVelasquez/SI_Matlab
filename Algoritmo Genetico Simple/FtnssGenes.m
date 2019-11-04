@@ -1,4 +1,4 @@
-%esta funcion devuelve la posicion del peor, gen para mutarlo
+%esta funcion devuelve la posicion del peor gen para mutarlo
 function [ i ] = FtnssGenes( input_args )       
 global Mtx_coeff Mtx_result
 
