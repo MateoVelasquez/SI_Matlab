@@ -19,7 +19,7 @@ Dentro del repositorio se encuentran algunos algoritmos basicos que serán expli
 
 ### Algoritmo Genetico Simple
 
-Este [Algoritmo Genetico](MateoVelasquez/SI_Matlab/Algoritmo Genetico Simple/AlgoritmoGenetico.m) está desarrollado para resolver un sistema de n-ecuaciones con n-incognitas
+Este [Algoritmo Genetico](MateoVelasquez/SI_Matlab/Algoritmo%Genetico%Simple/AlgoritmoGenetico.m) está desarrollado para resolver un sistema de n-ecuaciones con n-incognitas
 
 
 
