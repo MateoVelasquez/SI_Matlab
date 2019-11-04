@@ -1,6 +1,6 @@
 # Sistemas inteligentes usando MATLAB
 
-Algunos ejemplos basicos de algoritmos inteligentes implementados en MATLAB, desarrollados para el curso de Sistemas inteligentes del Instituto Tecnológico Metropolitano (ITM)
+Algunos ejemplos basicos de algoritmos inteligentes implementados en MATLAB, desarrollados para el curso de Sistemas inteligentes del Instituto Tecnológico Metropolitano (ITM).
 
 ## Comenzando 
 
@@ -11,7 +11,7 @@ Los algoritmos se desarrollaron en MATLAB 2017a con simulink. Es posible que alg
 
 ### Instalación
 
-Solo es necesario descargar los códigos y agregar el path de la carpeta en Matlab
+Solo es necesario descargar los códigos y agregar el path de la carpeta en Matlab.
 
 ## Ejecución de pruebas
 
@@ -29,11 +29,11 @@ La forma de ingresar las ecuaciones es mediante 2 matrices, una para los coefici
 |a<sub>11</sub>|a<sub>12</sub> |...|a<sub>1n</sub> |b<sub>1</sub> |
 |a<sub>21</sub>|a<sub>22</sub> |...|a<sub>2n</sub> |b<sub>2</sub> |
 |...|... |...|... |...|
-|a<sub>n1</sub>|X<sub>n2</sub> |...|X<sub>nn</sub> |b<sub>n</sub> | 
+|a<sub>n1</sub>|a<sub>n2</sub> |...|a<sub>nn</sub> |b<sub>n</sub> | 
 
 En codigo equivale a:
 
-```MATLAB
+```Matlab
 
 Mtx_coeff = [a11 a12 a1n; a21 a22 a2n;......;an1 an2 ann];
 Mtx_result = [b1;b2;....;bn];
