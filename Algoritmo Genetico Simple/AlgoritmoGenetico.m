@@ -9,11 +9,11 @@ Al_cruc = 3;    %Algoritmo cruce
 Ts_Pc= 0.9;     %Tasa de cruce
 Ts_Pm = 0.8;  %Tasa de mutación
 
-Rango = [0 10];
-Errper = 0.1; %tolerancia
+Rango = [0 10]; %Restringe el rango de los valores aleatorios
+Errper = 0.1; %tolerancia de error
 NmEpc = 1000; %Numero de epocas
 
-%Matrices
+%Matrices de ecuaciones
 
 Mtx_coeff = [3 8 2; 1 -2 4; -5 3 11];
 Mtx_result = [25;12;4];
